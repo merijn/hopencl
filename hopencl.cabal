@@ -33,7 +33,7 @@ License-file:        LICENSE
 Author:              Martin Dybdal <dybber@dybber.dk>
 Maintainer:          Martin Dybdal <dybber@dybber.dk>
 Copyright:           Copyright (c) 2011. Martin Dybdal, HIPERFIT research center, University of Copenhagen
-                     
+
 Tested-with:         GHC == 7.0.3
 Build-type:          Custom
 Cabal-version:       >= 1.10
@@ -118,3 +118,6 @@ Test-suite unit
 Source-repository head
   type: git
   location: http://github.com/HIPERFIT/hopencl
+
+Custom-setup
+  setup-depends: Cabal, base, filepath, directory, process
